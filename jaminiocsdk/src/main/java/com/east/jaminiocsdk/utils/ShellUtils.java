@@ -6,12 +6,11 @@ import java.io.InputStreamReader;
 import java.util.List;
 
 /**
- * <pre>
- *     author: Blankj
- *     blog  : http://blankj.com
- *     time  : 2016/8/7
- *     desc  : Shell相关工具类
- * </pre>
+ * |---------------------------------------------------------------------------------------------------------------|
+ *  @description:  Shell相关工具类
+ *  @author: jamin
+ *  @date: 2020/4/29 10:07 PM
+ * |---------------------------------------------------------------------------------------------------------------|
  */
 public class ShellUtils {
 
