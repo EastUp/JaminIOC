@@ -9,11 +9,11 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.east.baselibrary.ioc.JaminIOC;
-import com.east.baselibrary.ioc.annotation.BindClick;
-import com.east.baselibrary.ioc.annotation.BindView;
-import com.east.baselibrary.ioc.annotation.CheckNet;
-import com.east.baselibrary.ioc.annotation.ThrottleClick;
+import com.east.jaminiocsdk.ioc.JaminIOC;
+import com.east.jaminiocsdk.ioc.annotation.BindClick;
+import com.east.jaminiocsdk.ioc.annotation.BindView;
+import com.east.jaminiocsdk.ioc.annotation.CheckNet;
+import com.east.jaminiocsdk.ioc.annotation.ThrottleClick;
 
 
 /**

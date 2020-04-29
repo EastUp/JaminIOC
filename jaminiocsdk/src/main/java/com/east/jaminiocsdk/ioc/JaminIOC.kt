@@ -1,14 +1,15 @@
-package com.east.baselibrary.ioc
+package com.east.jaminiocsdk.ioc
 
 import android.app.Activity
 import android.os.SystemClock
 import android.view.View
 import android.widget.Toast
-import com.east.baselibrary.ioc.annotation.BindClick
-import com.east.baselibrary.ioc.annotation.BindView
-import com.east.baselibrary.ioc.annotation.CheckNet
-import com.east.baselibrary.ioc.annotation.ThrottleClick
-import com.east.baselibrary.utils.NetworkUtils
+import com.east.jaminiocsdk.ioc.annotation.BindClick
+import com.east.jaminiocsdk.ioc.annotation.BindView
+import com.east.jaminiocsdk.ioc.annotation.CheckNet
+import com.east.jaminiocsdk.ioc.annotation.ThrottleClick
+import com.east.jaminiocsdk.utils.NetworkUtils
+
 import java.lang.reflect.Method
 import kotlin.math.abs
 
@@ -48,7 +49,7 @@ object JaminIOC {
      *  解析
      *  @param any 在这里面去进行查找属性和方法
      */
-    private fun resolveBind(viewFinder:ViewFinder,any:Any){
+    private fun resolveBind(viewFinder: ViewFinder, any:Any){
         //解析绑定的View并通过反射赋值
         resolveBindFiled(viewFinder,any)
 
@@ -108,7 +109,7 @@ object JaminIOC {
 
     }
 
-    private class DeclaredOnClickListener(val method:Method,val any:Any,var checkNet: CheckNet?= null,var throttleClick: ThrottleClick?= null) :View.OnClickListener{
+    private class DeclaredOnClickListener(val method:Method, val any:Any, var checkNet: CheckNet?= null, var throttleClick: ThrottleClick?= null) :View.OnClickListener{
 
         private var mLastClickTime = 0L  //最后一次点击的时间
 

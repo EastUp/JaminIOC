@@ -1,4 +1,4 @@
-package com.east.baselibrary.ioc
+package com.east.jaminiocsdk.ioc
 
 import android.app.Activity
 import android.view.View

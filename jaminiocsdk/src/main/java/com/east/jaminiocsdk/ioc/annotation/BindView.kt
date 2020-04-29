@@ -1,4 +1,4 @@
-package com.east.baselibrary.ioc.annotation
+package com.east.jaminiocsdk.ioc.annotation
 
 /**
  * |---------------------------------------------------------------------------------------------------------------|
