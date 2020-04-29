@@ -57,7 +57,13 @@
 
 　　接着光标移到布局文件上,然后右键 -> Generate... -> JaminIOC
 
-![](插件使用说明.gif)
+![](使用说明.gif)
+
+　　 最后记着 一定要布局文件后添加以下代码
+
+```
+JaminIOC.INSTANCE.bind(this);
+```
 
 
       
