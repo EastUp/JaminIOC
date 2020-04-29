@@ -9,8 +9,8 @@ ext {
 
     libraryDescription = 'a ioc library for android'
 
-    siteUrl = 'https://github.com/EastUp/jaminioc'
-    gitUrl = 'https://github.com/EastUp/jaminioc.git'
+    siteUrl = 'https://github.com/EastUp/JaminIOC'
+    gitUrl = 'https://github.com/EastUp/JaminIOC.git'
 
     libraryVersion = '1.0.0'        // 项目引用的版本号，比如compile 'com.yanzhenjie:andserver:1.0.1'中的1.0.1就是这里配置的。
 

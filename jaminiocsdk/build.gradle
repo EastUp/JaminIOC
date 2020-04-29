@@ -13,7 +13,7 @@ apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
-apply from: 'jaminiocsdkbintray.gradle'
+
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
@@ -46,3 +46,5 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 }
+
+apply from: 'jaminiocsdkbintray.gradle'
