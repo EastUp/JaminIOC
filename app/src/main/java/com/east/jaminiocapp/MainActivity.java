@@ -1,4 +1,4 @@
-package com.east.jaminioc;
+package com.east.jaminiocapp;
 
 import android.os.Bundle;
 import android.view.View;

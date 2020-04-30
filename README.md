@@ -49,7 +49,7 @@
 
 #### 使用插件简单快捷生成对应的代码
 
-　　首先 [下载插件](https://github.com/EastUp/JaminIOCPlugin/raw/master/JaminIOC.jar)
+　　首先 [下载插件](https://github.com/EastUp/JaminIOCPlugin/raw/master/JaminIOCPlugin.jar)
 
 　　然后安装:
 
