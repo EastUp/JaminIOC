@@ -10,6 +10,17 @@
 
 ### 使用介绍
 
+### 依赖
+
+　　在主moudle的build.gradle中引入：
+
+```
+dependencies {
+    .....
+    implementation 'com.east:jaminioc:1.0.2'
+}
+```
+
 #### 先着重介绍四个注解
 - @BindView(R.id.xx)//作用是绑定对应id的View
 - @BindClick({R.id.xx,R.id.xxx}) //作用是标记对应id的View点击事件会调用到这个注解修饰的方法中
