@@ -12,7 +12,7 @@ ext {
     siteUrl = 'https://github.com/EastUp/JaminIOC'
     gitUrl = 'https://github.com/EastUp/JaminIOC.git'
 
-    libraryVersion = '1.0.1'        // 项目引用的版本号，比如compile 'com.yanzhenjie:andserver:1.0.1'中的1.0.1就是这里配置的。
+    libraryVersion = '1.0.2'        // 项目引用的版本号，比如compile 'com.yanzhenjie:andserver:1.0.1'中的1.0.1就是这里配置的。
 
     developerId = 'east'
     developerName = 'east'
